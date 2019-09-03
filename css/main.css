@@ -1,14 +1,14 @@
 
 
-
+/* background body styling */
 body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	font: Arial, Helvetica, sans-serif;
+	font: Arial, Helvetica, sans-serif; /* Where I set the fonts for my site's text */
 	font-size: 14px;
 	color: #061C37;
-	background-color: #FCFBEF;
+	background-color: #FCFBEF; /* Background */
 	background-image:url(background.png);
 	background-repeat:repeat-x;
 }
@@ -16,7 +16,7 @@ body {
 {
   margin: 0 auto 0 auto;
  text-align:left;}
-
+/* Layout of the website - container= where all of my site content will go */
 #container
 {
   display: block; 
