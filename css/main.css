@@ -7,16 +7,16 @@ body {
 	text-align: left;
 	font: Arial, Helvetica, sans-serif; /* Where I set the fonts for my site's text */
 	font-size: 14px;
-	color: #061C37;
-	background-color: #FCFBEF; /* Background */
-	background-image:url(background.png);
+	color: #061C37; /* Font color */
+	background-color: #FCFBEF; /* Background Color (Yellow) */
+	background-image:url(background.png); /* Background Image */
 	background-repeat:repeat-x;
 }
 *
 {
   margin: 0 auto 0 auto;
  text-align:left;}
-/* Layout of the website - container= where all of my site content will go */
+/* Outer margins of my site */
 #container
 {
   display: block; 
@@ -25,26 +25,7 @@ body {
   width: 940px;
 }
 
-#mainpic h1
-{
-	position:absolute;
-text-align:right;
-font-size:30px;
-color:#AB970C;
-left:600px;
-top:220px;
-}
-
-
-#mainpic h2
-{
-position:absolute;
-text-align:right;
-color:#776906;
-left:600px;
-top:252px;
-}
-
+/* Site banner - to make things cuter */
 #mainpic
 {
 background-image:url(css/header.png);
@@ -63,17 +44,17 @@ color:#F2D76A;
 
 
 
-
+/* Navbar */
 #menu
 {
-background-image:url(css/navbar.png);
+background-image:url(css/navbar.png); /*Navbar background image to match theme */
 background-repeat:no-repeat;
 width:940px;
 height:69px;
 float:left;
 clear:both;
 }
-
+/* Where the content of my site will go (text, images, videos, etc.) */
 #content
 {
 width:880px;
@@ -98,7 +79,7 @@ font-size:12px;
 text-decoration:none;
 color:#F5EB67;
 }
-
+/* Navbar design */
 a,a:visited
 {
 color:#E4CA10;
